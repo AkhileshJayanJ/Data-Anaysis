@@ -59,9 +59,9 @@ Based on the analysis, we recommend the following actions:
 
 ### DashBoard
 ---
-
+Tab 1
    ![Dashboard -Tab 1](https://github.com/AkhileshJayanJ/Data-Anaysis-Python/assets/160492546/ac4edab5-358c-4e32-8294-fd349a7dd4a6)
-
+Tab 2
    ![Dashboard -Tab 2](https://github.com/AkhileshJayanJ/Data-Anaysis-Python/assets/160492546/cac01ce6-a3e6-4cb1-a058-0bed9687e62e)
-
+Tab 3
    ![Dashboard -Tab 3](https://github.com/AkhileshJayanJ/Data-Anaysis-Python/assets/160492546/24eb562c-84da-46d1-9f87-e677eac561b0)
