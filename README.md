@@ -1,4 +1,4 @@
-# Sales Analysis
+# Credit Card Payment Analysis
 
 ## Table of Contents
 
@@ -10,22 +10,17 @@
 ### Problem Statement
 ---
 
-- Illustrate products sales compared to previous year sale.
-- Visualize the total sales in each quarter and compare with previous year.
-- Present the contribution of total sales in different city through a pie chart.
-- Compare profit in each channel (export, wholesale and distributer) with previous year.
-- Analyze the top customers buying and compare with previous year.
+- Analyze the income utilization among different categories, such as Age group, City, gender, etc.
+- Visualize the income spend analysis of different groups.
+- Visualize the total spend of different payment modes for different types of spend( food, bill payment, etc)
+- Present the contribution of total sales in different payment methods through a pie chart.
+
 
 
 ### Data Sources
 ---
 
-Sales Data: The primary dataset used for this analysis is the "Sales Analysis Report.xlsx" file, containing detailed information about sales(2017,2018,2019),product data, customer data and regional data.
-
-### Data Model
----
-  ![DataModel](https://github.com/AkhileshJayanJ/Sales-Analysis-power-Bi-/assets/160492546/1041ddbe-ec83-4878-bacd-d2c5ffb26ed9)
-
+Data: The primary dataset used for this analysis is the "dim_customers.csv" and "fact_spends.csv" files, containing detailed information about the payment of customers.
 
 
 ### Data Cleaning/Preparation
@@ -40,13 +35,15 @@ In the initial data preparation phase, we performed the following tasks:
 ---
 
 The analysis results are summarized as follows:
-1. In 2019 we can see that a significant reduction in sales. Most of the product had bad sales throughout year.
+1. Salaried It employees and freelancers have a high income utilization percentage.
    
-     ![2019](https://github.com/AkhileshJayanJ/Sales-Analysis-power-Bi-/assets/160492546/d80a6f50-19ec-460e-a29f-cb7a0100f163)
+     ![it_emp_spend](https://github.com/AkhileshJayanJ/Data-Anaysis-Python/assets/160492546/be9c6c60-33e0-4a42-92cd-e26a5ec976d5)
 
-2. Wholesale channel has high profit. Export has high profit Margin.
-
-     ![pfm](https://github.com/AkhileshJayanJ/Sales-Analysis-power-Bi-/assets/160492546/5c9bf108-241c-4ce2-9323-978b1ccb0163)
+2. People mostly use credit card payments for health and wellness.
+   
+     ![health](https://github.com/AkhileshJayanJ/Data-Anaysis-Python/assets/160492546/783023db-f7fc-44e7-9625-66e498f4770f)
+      
+     ![pie](https://github.com/AkhileshJayanJ/Data-Anaysis-Python/assets/160492546/aae68590-a138-4969-bf6c-81f173b74ec3)
 
 
 
@@ -55,14 +52,16 @@ The analysis results are summarized as follows:
 ---
 
 Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions of product 1, 2, 5, 7 and 11.
-- Export channel has high profit margin but total sales is very low. Increase the total export sale can increase the total profit.
-- Previous year top customers are buying fewer quantity.
-
+- The 21-45  age group has high income utilization.
+- Bill Payments, Groceries, electronics, and Health & Wellness have a higher chance of using credit cards.
   
-   ![topc](https://github.com/AkhileshJayanJ/Sales-Analysis-power-Bi-/assets/160492546/7963c03e-d5d9-408d-980a-f03aebd01714)
 
-  
 
 ### DashBoard
 ---
+
+   ![Dashboard -Tab 1](https://github.com/AkhileshJayanJ/Data-Anaysis-Python/assets/160492546/ac4edab5-358c-4e32-8294-fd349a7dd4a6)
+
+   ![Dashboard -Tab 2](https://github.com/AkhileshJayanJ/Data-Anaysis-Python/assets/160492546/cac01ce6-a3e6-4cb1-a058-0bed9687e62e)
+
+   ![Dashboard -Tab 3](https://github.com/AkhileshJayanJ/Data-Anaysis-Python/assets/160492546/24eb562c-84da-46d1-9f87-e677eac561b0)
